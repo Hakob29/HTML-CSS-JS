@@ -1,0 +1,548 @@
+/********************************/
+/************HEADER**************/
+/********************************/
+@media (max-width: 79rem) {
+  .main_header {
+    padding: 0 0.5rem 12rem 0.5rem;
+  }
+
+  .cover_image {
+    width: 2.8rem;
+  }
+}
+
+@media (max-width: 60rem) {
+  .main_header {
+    padding: 0 6.6rem 8rem 6.6rem;
+  }
+
+  .netflix_svg {
+    width: 6rem;
+    height: 1.5rem;
+  }
+
+  .heading_header h1 {
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 666;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+  }
+
+  .heading_header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    font-weight: 444;
+  }
+
+  .form_div label {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 53rem) {
+  .main_header {
+    padding: 0 0.5rem 8rem 0.5rem;
+  }
+}
+
+@media (max-width: 44rem) {
+  .heading_header h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .heading_header p {
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+  }
+  .heading_header label {
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+  }
+
+  .input_div input {
+    padding: 1rem 5.5rem 1rem 0.9rem;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 37rem) {
+  .main_header {
+    padding: 0 0.5rem 4rem 0.5rem;
+  }
+
+  .heading_header h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+  }
+
+  .input_div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input_div input {
+    padding: 0.8rem 17rem 0.8rem 0.9rem;
+    transition: 0.5s;
+  }
+
+  .form_div button {
+    margin-top: 0.7rem;
+    padding: 0.8rem 1.1rem 0.8rem 0.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    transition: 0.2s;
+  }
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION ONE**************/
+
+@media (max-width: 79rem) {
+  .container-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .image_tv {
+    position: relative;
+    width: 36rem;
+    z-index: 999;
+  }
+}
+
+@media (max-width: 70rem) {
+  .image_tv {
+    position: relative;
+    width: 30rem;
+    z-index: 999;
+    transition: 1s;
+  }
+
+  @media (max-width: 65rem) {
+    .image_tv {
+      position: relative;
+      width: 29rem;
+      z-index: 999;
+      transition: 1s;
+    }
+  }
+}
+
+@media (max-width: 60rem) {
+  .container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .heading_div {
+    text-align: center;
+    align-items: center;
+  }
+
+  .heading_div h1 {
+    font-size: 2rem;
+    font-weight: 777;
+    letter-spacing: 1px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heading_div p {
+    font-size: 1rem;
+    font-weight: 444;
+    letter-spacing: 1px;
+  }
+
+  .image_tv {
+    position: relative;
+    width: 40rem;
+    z-index: 999;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 53rem) {
+  .image_tv {
+    position: relative;
+    width: 35rem;
+    z-index: 999;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 44rem) {
+  .image_tv {
+    position: relative;
+    width: 30rem;
+    z-index: 999;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 37rem) {
+  .image_tv {
+    position: relative;
+    width: 27rem;
+    z-index: 999;
+    transition: 1s;
+  }
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION TWO**************/
+@media (max-width: 79rem) {
+  .container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .mobile_image {
+    width: 38rem;
+  }
+
+  .mobile_div2 {
+    padding: 0.4rem 10rem 0.4rem 0.4rem;
+  }
+
+  .gif_div::after {
+    position: absolute;
+    transform: translate(300%, -44%);
+    content: "";
+    clear: both;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 70rem) {
+  .mobile_image {
+    width: 34rem;
+    transition: 0.5s;
+  }
+
+  .mobile_div2 {
+    padding: 0.4rem 7.9rem 0.4rem 0.4rem;
+    transition: 0.5s;
+  }
+
+  .gif_div::after {
+    position: absolute;
+    transform: translate(200%, -44%);
+    content: "";
+    clear: both;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 65rem) {
+  .mobile_image {
+    width: 30rem;
+    transition: 0.5s;
+  }
+  .mobile_div2 {
+    padding: 0.4rem 5.5rem 0.4rem 0.4rem;
+    transition: 0.5s;
+  }
+
+  .gif_div::after {
+    position: absolute;
+    transform: translate(200%, -44%);
+    content: "";
+    clear: both;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 60rem) {
+  .container-two {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .section_two_heading {
+    grid-row: 1;
+  }
+  .mobile_image {
+    width: 38rem;
+  }
+
+  .gif_div::after {
+    position: absolute;
+    transform: translate(330%, -44%);
+    content: "";
+    clear: both;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-size: cover;
+  }
+  .mobile_div2 {
+    text-align: start;
+    padding: 0.1rem 11rem 0.1rem 0.4rem;
+    transform: translate(35%, -130%);
+  }
+  .cover_image {
+    width: 2.8rem;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .section_two_heading {
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .section_two_heading h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .section_two_heading p {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 45rem) {
+  .mobile_image {
+    width: 30rem;
+  }
+
+  .mobile_div2 {
+    text-align: start;
+    padding: 0.1rem 6rem 0.1rem 0.4rem;
+    transform: translate(61%, -130%);
+  }
+
+  .gif_div::after {
+    position: absolute;
+    transform: translate(220%, -44%);
+    content: "";
+    clear: both;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 42rem) {
+  .mobile_div2 {
+    text-align: start;
+    padding: 0m 6rem 0 0.4rem;
+    transform: translate(55%, -130%);
+  }
+}
+
+@media (max-width: 39rem) {
+  .mobile_div2 {
+    text-align: start;
+    padding: 0 6rem 0 0.4rem;
+    transform: translate(49%, -130%);
+  }
+}
+
+@media (max-width: 36rem) {
+  .mobile_div2 {
+    text-align: start;
+    padding: 0 6rem 0 0.4rem;
+    transform: translate(36%, -130%);
+  }
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION FOUR**********/
+@media (max-width: 79rem) {
+  .kids_image {
+    width: 35rem;
+    height: auto;
+  }
+
+  .container-four {
+    display: flex;
+    gap: 1fr 1fr;
+    padding: 0 4rem 0 4rem;
+  }
+}
+
+@media (max-width: 77rem) {
+  .kids_image {
+    width: 34rem;
+    height: auto;
+    transition: 1s;
+  }
+  .container-four {
+    padding: 0 4rem 0 4rem;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 75rem) {
+  .kids_image {
+    width: 33rem;
+    height: auto;
+    transition: 1s;
+  }
+  .container-four {
+    padding: 0 5rem 0 6rem;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 70rem) {
+  .kids_image {
+    width: 29rem;
+    height: auto;
+    transition: 1s;
+  }
+  .container-four {
+    padding: 0 3rem 0 4rem;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 60rem) {
+  .container-four {
+    display: grid;
+  }
+
+  .container-four .section_two_heading {
+    align-items: center;
+    grid-row: 1;
+  }
+
+  .kids {
+    text-align: center;
+  }
+
+  .kids_image {
+    width: 38rem;
+  }
+}
+
+@media (max-width: 44rem) {
+  .kids_image {
+    width: 35rem;
+  }
+
+  .container-four {
+    padding: 0 3rem 0 3rem;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 42rem) {
+  .kids_image {
+    width: 33rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .kids_image {
+    width: 31rem;
+  }
+  .container-four {
+    padding: 0 2.5rem 0 2.5rem;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 38rem) {
+  .kids_image {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 35rem) {
+  .kids_image {
+    width: 29rem;
+  }
+}
+
+@media (max-width: 32rem) {
+  .kids_image {
+    width: 27rem;
+  }
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION FIVE**********/
+@media (max-width: 79rem) {
+  .div_button {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  .container-five {
+    padding: 0 2rem 0 2rem;
+  }
+}
+
+@media (max-width: 60rem) {
+  .div_button button {
+    font-size: 1.1rem;
+  }
+  .div_button button ion-icon {
+    font-size: 2rem;
+  }
+  .container-five h1 {
+    font-size: 2.1rem;
+  }
+  .email_heading h2 {
+    font-size: 1rem;
+  }
+}
+
+/********************************/
+/**************FOOTER************/
+/********************************/
+
+@media (max-width: 79rem) {
+  .footer_container {
+    padding: 2rem 5rem 4.3rem 3rem;
+  }
+}
+
+@media (max-width: 55rem) {
+  .footer_div2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    row-gap: 0rem;
+  }
+
+  .footer_mid {
+    margin-left: 0;
+  }
+
+  .footer_container {
+    align-items: start;
+    justify-content: start;
+  }
+}

@@ -1,0 +1,561 @@
+/********************************/
+/************MAIN****************/
+/********************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline-style: none;
+  box-shadow: 0 0 0 0.2rem #ecececd2;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+/********************************/
+/************HEADER**************/
+/********************************/
+
+.main_header {
+  position: relative;
+  padding: 0 6.6rem 11rem 6.6rem;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.817) 0,
+      rgba(0, 0, 0, 0.424) 60%,
+      rgba(0, 0, 0, 0.807) 100%
+    ),
+    url("../img/AM-en-20240212-popsignuptwoweeks-perspective_alpha_website_large.jpeg");
+}
+
+.netflix_header_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  text-align: center;
+}
+
+.netflix_svg {
+  width: 9.25rem;
+  height: 2.5rem;
+}
+
+.netflix_nav {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.select-wrapper {
+  position: relative;
+}
+.select-wrapper::after {
+  content: "▾";
+  font-size: 0.8rem;
+  position: absolute;
+  transform: translate(-24px, 8px);
+}
+
+.netflix_section {
+  padding: 0.45rem 2.3rem;
+  background-color: #121212;
+  color: #fff;
+  border-radius: 0.3rem;
+  border: 0.03rem solid rgb(105, 105, 105);
+  font-size: 1rem;
+  font-weight: 444;
+  text-align: start;
+  letter-spacing: 0.04rem;
+  direction: calc(100% -10px);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.icon_div {
+  position: absolute;
+  transform: translate(11px, 7px);
+  font-size: 1rem;
+}
+
+.signIn_btn {
+  padding: 0.6rem 1rem;
+  background-color: rgb(229, 9, 20);
+  letter-spacing: normal;
+  line-height: 1;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 555;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signIn_btn:hover {
+  background-color: rgb(195, 8, 17);
+}
+
+.heading_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.4rem;
+}
+
+.heading_header h1 {
+  margin-top: 9.5rem;
+  font-size: 3rem;
+  font-weight: 777;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  box-shadow: rgba(0, 0, 0, 0.096) 0px 5px 15px;
+}
+
+.heading_header p {
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 474;
+  text-align: center;
+}
+
+.form_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-weight: 444;
+  text-align: center;
+}
+
+.form_div label {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.form_div input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 11.5rem 1rem 0.9rem;
+  background-color: rgba(21, 21, 21, 0.415);
+  border-radius: 0.4rem;
+  border: 0.05rem solid rgba(147, 147, 147, 0.774);
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: start;
+}
+.form_div input::placeholder {
+  color: rgb(191, 191, 191);
+}
+
+.input_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.form_div button {
+  padding: 1rem 1.5rem 0.8rem 1.5rem;
+  background-color: rgb(229, 9, 20);
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  transition: 0.2s;
+}
+
+.form_div button:hover {
+  background-color: rgb(195, 8, 17);
+}
+
+.right_icon {
+  width: 1.5rem;
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION ONE**************/
+
+.main_page {
+  background-color: rgb(41, 41, 41);
+  padding: 0.5rem 0 0 0;
+}
+
+.section_one {
+  background-color: rgb(0, 0, 0);
+  padding: 4rem 0;
+}
+
+.container-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 10rem 0 10rem;
+}
+
+.heading_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+  padding: 0 1rem 0 0;
+}
+.heading_div h1 {
+  font-size: 3rem;
+  font-weight: 999;
+  letter-spacing: 1px;
+}
+
+.heading_div p {
+  font-size: 1.4rem;
+  font-weight: 555;
+  letter-spacing: 1px;
+}
+
+.animation_div {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+
+.image_tv {
+  position: relative;
+  width: 29rem;
+  z-index: 999;
+}
+
+.background_video {
+  position: absolute;
+  width: 73.5%;
+  height: auto;
+  transform: translate(-118%, 38%);
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION TWO**************/
+
+.section_two {
+  margin-top: 0.5rem;
+  background-color: rgb(0, 0, 0);
+  padding: 4.8rem 0;
+}
+
+.container-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10rem 0 10rem;
+  gap: 1.5rem;
+}
+
+.mobile_div {
+  position: relative;
+}
+
+.mobile_image {
+  width: 30rem;
+}
+
+.mobile_div2 {
+  position: absolute;
+  transform: translate(36%, -130%);
+  display: flex;
+  padding: 0.4rem 5rem 0.4rem 0.4rem;
+  align-items: center;
+  justify-content: start;
+  background-color: black;
+  border: 0.1rem solid gray;
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.gif_div::after {
+  position: absolute;
+  transform: translate(180%, -44%);
+  content: "";
+  clear: both;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+  background-size: cover;
+}
+
+.cover_div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 50%;
+}
+
+.cover_image {
+  width: 3.7rem;
+}
+.mobile_div2_heading {
+  padding: 0 0.2rem 0 0;
+}
+
+.mobile_div2_heading h1 {
+  font-size: 1rem;
+}
+
+.mobile_div2_heading p {
+  font-size: 0.8rem;
+  color: rgb(40, 40, 255);
+}
+
+.section_two_heading h1 {
+  font-size: 3rem;
+  font-weight: 999;
+  letter-spacing: 1px;
+}
+.section_two_heading p {
+  font-size: 1.4rem;
+  font-weight: 555;
+  letter-spacing: 1px;
+}
+.section_two_heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION THREE**********/
+
+.section_three {
+  margin-top: 0.5rem;
+  background-color: rgb(0, 0, 0);
+  padding: 4.8rem 0;
+}
+
+.section_three .background_video {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  transform: translate(-134%, 20%);
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION FOUR**********/
+.section_four {
+  margin-top: 0.5rem;
+  background-color: rgb(0, 0, 0);
+  padding: 4.8rem 0;
+}
+.kids_image {
+  width: 32rem;
+}
+
+.container-four {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 7rem 0 8rem;
+}
+
+.section_four .section_two_heading {
+  display: flex;
+  align-items: start;
+}
+
+/********************************/
+/************MAIN PAGE************/
+/**********SECTION FIVE**********/
+
+.section_five {
+  margin-top: 0.5rem;
+  background-color: rgb(0, 0, 0);
+  padding: 4.8rem 0;
+}
+
+.container-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 10rem 0 10rem;
+  max-width: 3500px;
+}
+
+.container-five h1 {
+  font-size: 3rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.div_button {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.div_button button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #2a2a2a;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.div_button button ion-icon {
+  font-size: 3rem;
+  transition: 0.3s;
+}
+
+.icon_active {
+  transform: rotate(45deg);
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden_div {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 0.19rem solid rgb(25, 25, 25);
+}
+
+.display {
+  display: flex;
+}
+
+.hover_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btns:focus {
+  outline-style: none;
+  box-shadow: none;
+}
+
+.email_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+
+.email_heading h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.div_button button:hover {
+  background-color: rgb(56, 56, 56);
+}
+
+/********************************/
+/**************FOOTER************/
+/********************************/
+
+footer {
+  background-color: rgb(41, 41, 41);
+  padding: 0.5rem 0 0 0;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 8rem 4.3rem 0rem;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+.footer_div1 {
+  display: flex;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+.footer_div1 a {
+  color: rgb(187, 187, 187);
+}
+
+.footer_div2 {
+  display: flex;
+  gap: 9rem;
+  margin-top: 1.4rem;
+}
+
+.footer_div3 {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: rgb(187, 187, 187);
+  gap: 1rem;
+}
+
+.footer_container ul li {
+  list-style-type: none;
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer_container ul li a {
+  color: rgb(187, 187, 187);
+}
+
+.footer_icon {
+  transform: translate(11px, 4px);
+  color: white;
+}
+
+.footer_wrapper::after {
+  transform: translate(-24px, 1px);
+}
+
+.footer_mid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
